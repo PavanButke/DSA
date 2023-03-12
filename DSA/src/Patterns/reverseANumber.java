@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.*;
    
    public class reverseANumber{
