@@ -8,20 +8,19 @@ public class PrimeFactorization {
 public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int n= scan.nextInt();
-    
-    int div=2;
-    while(n != 1)
+    //another approch
+    for(int div = 2 ; div * div<=n ; div++)
     {
-        if(n%div==0)
-          {
-              System.out.print(div+" ");
-              n= n/div;
-          }
-          else
-          {
-              div++;
-          }
-          
+        while(n%div==0)
+        {
+            System.out.print(div+"");
+            n= n/div;
+        }
+        
+    }
+    if(n>1)
+    {
+        System.out.print(n);
     }
    }
   
