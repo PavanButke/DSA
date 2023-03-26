@@ -1,5 +1,7 @@
 package Patterns;
 
+import java.util.Scanner;
+
 public class DigitsOfANumber {
     
     public static void Main(String args[])

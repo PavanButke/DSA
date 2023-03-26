@@ -12,7 +12,7 @@ public static void main(String[] args) throws Exception {
     int arr[] = new int[length];
     
     int i=0;
-    while(arr.length !=0)
+    while(arr.length!=0)
     {
         arr[i]=scan.nextInt();
         i++;
