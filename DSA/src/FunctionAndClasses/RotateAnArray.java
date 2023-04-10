@@ -16,6 +16,11 @@ public class RotateAnArray {
 	  }
 
 	  public static void rotate(int[] a, int k){
+		//handle case of negative num
+		 k= k% a.length;
+		 if(k<0)
+			 k+=a.length;
+		  
 	    reverse(a ,0 , a.length-k-1 );
 	    reverse(a , a.length-k , a.length-1);
 	    reverse(a , 0 , a.length-1);
