@@ -17,8 +17,35 @@ public class PrintPalindromicString {
 			for(int j= i+1; j<= s.length();j++ )
 			{
 				String sub= s.substring(i,j);
+				boolean isPalin= isPalindrome(sub);
+				if(isPalin == true)
 				System.out.println(sub);
 			}
 		}
+	
+	}
+	
+	public static boolean isPalindrome(String sub)
+	{
+		boolean flag= true;
+		
+		int left=0;
+		int right= sub.length()-1;
+		
+		while(left < right)
+		{
+			char chleft= sub.charAt(left);
+			char chright=sub.charAt(right);
+			
+			if(chleft != chright)
+			{
+				flag= false;
+				break;
+			}
+			
+			left++;
+			right--;
+		}
+		return flag;
 	}
 }
