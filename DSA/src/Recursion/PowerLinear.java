@@ -20,9 +20,18 @@ public class PowerLinear {
 	private static int power(int x, int num) {
 		if(num==0)
 			return 1;
-		int pwm1 = power(x , num-1);
-		int p= x*pwm1;
+//		int pwm1 = power(x , num-1);
+//		int p= x*pwm1;
+//		return p;
+	
+		int pwm2= power(x, num/2);
+		int p = pwm2 *pwm2;
+		
+		if(num %2==1)
+			p= p*x;
+		
 		return p;
 	}
+	
 
 }
