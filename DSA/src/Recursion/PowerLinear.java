@@ -26,7 +26,7 @@ public class PowerLinear {
 	
 		int pwm2= power(x, num/2);
 		int p = pwm2 *pwm2;
-		
+		 	 	
 		if(num %2==1)
 			p= p*x;
 		
