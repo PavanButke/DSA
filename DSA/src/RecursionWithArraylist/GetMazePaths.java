@@ -48,7 +48,7 @@ public class GetMazePaths {
 		{
 			ArrayList<String> vPath= getMePath(sr+1, sc, dr, dc);
 			for(String path2 : vPath) {
-				myPath.add("v"+path);
+				myPath.add("v"+path2);
 			}
 		}
 		
