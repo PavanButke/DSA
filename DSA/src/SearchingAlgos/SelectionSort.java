@@ -13,7 +13,7 @@ public class SelectionSort {
 		{
 			arr[i] = scan.nextInt();
 		}
-		printSelSort(arr));
+		printSelSort(arr);
 	}
 
 	public static void printSelSort(int[] arr) {
