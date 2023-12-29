@@ -7,7 +7,8 @@ public class AdjecentZerosAndOne {
 	public static void main(String ...args)
 	{
 		int []arr = new int[]{1,0,0,0,1};
-		canPlaceFlowers(arr, 2);
+		System.out.println(canPlaceFlowers(arr, 1));
+	
 	}
 	
 	 public static boolean canPlaceFlowers(int[] fls, int n) {
