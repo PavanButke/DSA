@@ -8,7 +8,7 @@ public class MoveZeros {
 	{
 		Scanner scan = new Scanner(System.in);
 		int n= scan.nextInt();
-		
+		 
 		int []nums = new int[n];
 		
 		for(int i=0; i< n ; i++)
