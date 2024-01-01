@@ -19,7 +19,7 @@ public class MaxConsecutiveOnes {
 		
 	}
 
-	   public int longestOnes(int[] nums, int k) {
+	   public static int longestOnes(int[] nums, int k) {
 	        int ans=0;
 
 	        int coziw=0;
