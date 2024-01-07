@@ -32,6 +32,7 @@ public class QuickSortAlgo {
     return (j - 1);
   }
 
+  // used for swapping ith and jth elements of array
   public static void swap(int[] arr, int i, int j) {
     System.out.println("Swapping " + arr[i] + " and " + arr[j]);
     int temp = arr[i];
@@ -45,6 +46,7 @@ public class QuickSortAlgo {
     }
     System.out.println();
   }
+
   public static void main(String[] args) throws Exception {
     Scanner scn = new Scanner(System.in);
     int n = scn.nextInt();
