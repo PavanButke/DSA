@@ -8,9 +8,13 @@ public class RotateByNinteeDeg {
 	{
 		Scanner scan = new Scanner(System.in);
 		
+		System.out.println("Kindly Enter the Size of Arr: ");
+		
 		int n= scan.nextInt();
 		
+		System.out.println("Now Enter Values: ");
 		int [][] arr= new int[n][n];
+		
 		
 		for(int i=0 ; i<arr.length;i++ )
 		{
@@ -38,7 +42,7 @@ public class RotateByNinteeDeg {
 			
 			while(left< right)
 			{
-				int temp= arr[i][left];
+				int temp= arr[i][left]; //0 0 , 1 , 1
 				arr[i][left] = arr[i][right];
 				arr[i][right]= temp;
 				left++;

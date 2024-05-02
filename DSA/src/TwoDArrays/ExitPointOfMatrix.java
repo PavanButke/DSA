@@ -20,7 +20,7 @@ public class ExitPointOfMatrix {
 		
 		for(int i=0 ; i<n1 ; i++ )
 		{
-			for(int j=0 ; i<n2 ; j++)
+			for(int j=0 ; j<n2 ; j++)
 			{
 				arr[i][j]= scan.nextInt();
 			}
@@ -35,7 +35,7 @@ public class ExitPointOfMatrix {
 			dir = (dir + arr[i][j])%4;
 			
 			if(dir==0) {
-				j++;
+				j++; //row incr
 				if(j== arr.length)
 				{
 					j--;
@@ -44,7 +44,7 @@ public class ExitPointOfMatrix {
 			}else
 			if(dir==1)
 			{
-				i++;
+				i++; // col incr
 				if(i==arr.length)
 				{
 					i--;

@@ -9,12 +9,13 @@ public class PrintIncreasing {
 		Scanner scan = new Scanner(System.in);
 		int n= scan.nextInt();
 		
-		printIncreasing(n);
+		printIncreasing(n); //5
 	}
 
 	private static void printIncreasing(int n) {
 		if(n==0)
 			return;
+		//System.out.println(n);
 		printIncreasing(n-1);
 		System.out.println(n);
 	}

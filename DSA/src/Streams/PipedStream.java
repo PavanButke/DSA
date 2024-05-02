@@ -26,8 +26,14 @@ class Producer extends Thread{
 				
 			}
 			
+			data{}
+			error{
+				erro
+			}
 		}
+		Respos<ZfResponseDto>
 	}
+	ZfRe
 }
 
 class Consumer extends Thread{
@@ -53,7 +59,7 @@ class Consumer extends Thread{
 			}catch(Exception e) {
 				
 			}
-			
+			FI<I> str = (arg)-> s
 		}
 	}
 }

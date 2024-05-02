@@ -50,8 +50,6 @@ public class SubstractionFromAnybase {
 
 	      }
 	      return res;
-	      
-	      
 	    
 	   }
 

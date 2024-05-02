@@ -13,7 +13,7 @@ public class DiffInChar {
 
 	private static String diffInChar(String str) {
 		// TODO Auto-generated method stub
-		StringBuilder sb = new StringBuilder(str);
+		StringBuilder sb = new StringBuilder();
 		for(int i=0 ; i< str.length() ; i++)
 		{
 			if(i== str.length()-1)

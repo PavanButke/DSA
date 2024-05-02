@@ -3,7 +3,8 @@ package Patterns;
 import java.util.Scanner;
 
 public class Patter12 {
-
+//print odds
+	
 public static void main(String[] args){
     
     Scanner scan = new Scanner(System.in);

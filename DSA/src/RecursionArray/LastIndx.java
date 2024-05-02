@@ -21,6 +21,7 @@ public class LastIndx {
 			arr[i] = scan.nextInt();
 			
 		}
+		System.out.println("Enter the no. to find: ");
 		int num = scan.nextInt();
 		
 		int res= displayLasstIndx(arr , 0 , num);

@@ -18,7 +18,7 @@ public class PrintPalindromicString {
 			{
 				String sub= s.substring(i,j);
 				boolean isPalin= isPalindrome(sub);
-				if(isPalin == true)
+				if(sub.length() > 1 && isPalin == true)
 				System.out.println(sub);
 			}
 		}
