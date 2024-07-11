@@ -15,7 +15,7 @@ public class ArrayCountInverse {
                     {
                         count++;
                     }
-                 }
+                 	}
             }
 
             return count;
