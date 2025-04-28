@@ -36,7 +36,7 @@ public class AllNonRepeating {
 			return "Non repeating chars: " + result.toString().trim();
 		}
 		else 
-			return "No non-repeating chars";
+			return "All are repeating chars";
 		
 	}
 	
